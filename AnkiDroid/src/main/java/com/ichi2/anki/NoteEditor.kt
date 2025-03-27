@@ -9,7 +9,7 @@
  * version.                                                                             *
  *                                                                                      *
  * This program is distributed in the hope that it will be useful, but WITHOUT ANY      *
- * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A      *
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A      *f
  * PARTICULAR PURPOSE. See the GNU General Public License for more details.             *
  *                                                                                      *
  * You should have received a copy of the GNU General Public License along with         *
@@ -2518,7 +2518,7 @@ class NoteEditor :
                     shortcut("Ctrl+L", { getString(R.string.card_template_editor_group) }),
                     shortcut("Ctrl+N", { getString(R.string.select_note_type) }),
                     shortcut("Ctrl+Shift+T", { getString(R.string.tag_editor) }),
-                    shortcut("Ctrl+Shift+C", { getString(R.string.multimedia_editor_popup_cloze) }),
+                    shortcut("Ctrl+B",{ getString(R.string.multimedia_editor_popup_cloze) }),
                     shortcut("Ctrl+P", { getString(R.string.card_editor_preview_card) }),
                 ),
                 R.string.note_editor_group,
